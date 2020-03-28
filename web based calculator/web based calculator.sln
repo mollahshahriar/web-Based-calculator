@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web based calculator", "web based calculator\web based calculator.csproj", "{0B15EE66-181A-41D0-8785-D66B2E1CB00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B15EE66-181A-41D0-8785-D66B2E1CB00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B15EE66-181A-41D0-8785-D66B2E1CB00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B15EE66-181A-41D0-8785-D66B2E1CB00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B15EE66-181A-41D0-8785-D66B2E1CB00B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0D34C5-8E99-46BC-BB21-E02BFB0A8431}
+	EndGlobalSection
+EndGlobal
