@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="web_based_calculator.HomePage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Incometax.aspx.cs" Inherits="web_based_calculator.Incometax" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <head>
-    <title>WEb Based Calculator</title>
+    <title>Income TAx</title>
 
     
         
@@ -51,35 +51,36 @@
 
         </style>
         </head>
+    
 </head>
-
 <body>
-
- 
-
-
-
-
-
-    <header>
+     <header>
             <img src="">
-            <h1>Web Based Calculator</h1>
+            <h1>Income Tax</h1>
             <p></p>
             <ul>
                 
             </ul>
         </header>
-                
-      <div>     <p><a href="">Income TAX </a>
-          
-                <a href="">Property Tax</a>
-                <a href="">Genaral</a></p>
-    </div>
-
-    <asp:Label ID="Label1" runat="server" Text="Web Bade"></asp:Label>
 
 
-   
+    <td class="incometax"> 
+        <div class="label">Total Earning</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span> 
+        <div class="label">Tax Percentage</div> 
+        <span class="dollar"> <input class=" dollar" type="text" "> </span>
+        
+        <p><div class="label">Tax Amount</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
+        <p><div class="label">Earnings after Tax</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
+        <asp:Button ID="Calculate" Text="Calculate" />
+        
+
+                             
+        
+
+
     <form id="form1" runat="server">
         <div>
         </div>
