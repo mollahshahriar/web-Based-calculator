@@ -62,6 +62,18 @@
             </ul>
         </header>
 
+    <td class="incometax"> 
+        <div class="label">Total Earning</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span> 
+        <div class="label">Tax Percentage</div> 
+        <span class="dollar"> <input class=" dollar" type="text" "> </span>
+        
+        <p><div class="label">Tax Amount</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
+        <p><div class="label">Earnings after Tax</div> 
+        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
+        <asp:Button ID="Calculate" Text="Calculate" />
+
     <form id="form1" runat="server">
         <div>
         </div>

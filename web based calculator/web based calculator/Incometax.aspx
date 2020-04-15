@@ -74,7 +74,10 @@
         <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
         <p><div class="label">Earnings after Tax</div> 
         <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
-        <asp:Button ID="Calculate" Text="Calculate" />
+        <button class="btn success">Calculate</button>
+        <button class="btn success">Clear</button>
+
+        <a href="#" id="form-calculator-calculate" class="btn btn-large btn-default" title="Calculatate your estimated tax return" data-track="submit">Calculate<span class="sr-only"> your estimated tax return</span></a>
         
 
                              
