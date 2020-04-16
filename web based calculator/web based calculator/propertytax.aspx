@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="propertytax.aspx.cs" Inherits="web_based_calculator.propertytax" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="propertytax.aspx.cs" Inherits="web_based_calculator.propertytax1" %>
 
 <!DOCTYPE html>
 
@@ -50,31 +50,56 @@
 
         </style>
         </head>
+    
 </head>
 <body>
-    
+    <form id="form1" runat="server">
      <header>
             <img src="">
-            <h1>property Tax</h1>
+            <h1>Property Tax</h1>
             <p></p>
             <ul>
                 
             </ul>
         </header>
 
-    <td class="incometax"> 
-        <div class="label">Total Earning</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span> 
-        <div class="label">Tax Percentage</div> 
-        <span class="dollar"> <input class=" dollar" type="text" "> </span>
-        
-        <p><div class="label">Tax Amount</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
-        <p><div class="label">Earnings after Tax</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
-        <asp:Button ID="Calculate" Text="Calculate" />
 
-    <form id="form1" runat="server">
+    <td class="propertytax"> 
+        
+        
+        
+           <div> <asp:Label ID="TotalPropertyValue" runat="server" Text="Property Value"> </asp:Label>   
+                <asp:TextBox ID="TextBox1" runat="server"> </asp:TextBox> </div> <br />
+        
+                 
+                                            
+        
+        
+        <div>    <asp:Label ID="TaxPercentage" runat="server" Text="Tax Percentage"></asp:Label>    
+              <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox> </div> <br />
+
+         
+        <div> <asp:Label ID="Years" runat="server" Text="How many years"></asp:Label>
+         
+        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></div> <br />
+        
+        
+        <div>   <asp:Label ID="TaxAmount" runat="server" Text="Tax Amount"></asp:Label>   
+               <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox> </div> <br />
+       
+
+         <div> <asp:Label ID="TotalTax" runat="server" Text="Total  Tax"> </asp:Label> 
+
+              <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox> </div> <br />
+       
+       
+     <asp:Button ID="Button4" runat="server" Text="Clear" OnClick="Button4_Click" /> <br  />
+    <asp:Button ID="Button3" runat="server" Text="Calculate" OnClick="Button3_Click" />
+    
+                             
+       
+
+    
         <div>
         </div>
     </form>

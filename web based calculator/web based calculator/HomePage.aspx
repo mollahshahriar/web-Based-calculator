@@ -54,6 +54,7 @@
 </head>
 
 <body>
+    <form id="form1" runat="server">
 
  
 
@@ -69,20 +70,31 @@
                 
             </ul>
         </header>
-                
-      <div>     <p><a href="">Income TAX </a>
-          
-                <a href="">Property Tax</a>
-                <a href="">Genaral</a></p>
-    </div>
+        <asp:Button ID="Button1" runat="server" Text="IncomeTax" OnClick="Button1_Click" /><br />
 
-    <asp:Label ID="Label1" runat="server" Text="Web Bade"></asp:Label>
+        <br />
+
+        <asp:Button ID="Button2" runat="server" Text="PropertyTax" OnClick="Button2_Click" /> <br />
+      <div>     
+    </div>
 
 
    
-    <form id="form1" runat="server">
+    
         <div>
+
+        <asp:Button ID="Button3" runat="server" Text="General" OnClick="Button3_Click" />
         </div>
+        <p>
+            &nbsp;</p>
+        <p>
+
+    <asp:Label ID="Label1" runat="server" Text="there are three Calculator option. First one is Income Tax Calcultaor.you can Calculate Your Tax amount through this calculator. Second Calcultor Is about Property Tax Calculator you can Calculate your property tax value using this Calculator.Geenral calculator is you can Calculate general Calculation like Addition,Division,multiplication and susb"></asp:Label>
+
+
+   
+    
+        </p>
     </form>
 </body>
 </html>

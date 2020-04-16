@@ -54,6 +54,7 @@
     
 </head>
 <body>
+    <form id="form1" runat="server">
      <header>
             <img src="">
             <h1>Income Tax</h1>
@@ -65,26 +66,39 @@
 
 
     <td class="incometax"> 
-        <div class="label">Total Earning</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span> 
-        <div class="label">Tax Percentage</div> 
-        <span class="dollar"> <input class=" dollar" type="text" "> </span>
         
-        <p><div class="label">Tax Amount</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
-        <p><div class="label">Earnings after Tax</div> 
-        <span class="tightcontainer dollar"> <input class=" dollar" type="text" "> </span></p>
-        <button class="btn success">Calculate</button>
-        <button class="btn success">Clear</button>
-
-        <a href="#" id="form-calculator-calculate" class="btn btn-large btn-default" title="Calculatate your estimated tax return" data-track="submit">Calculate<span class="sr-only"> your estimated tax return</span></a>
         
+        
+           <div> <asp:Label ID="TotalEarning" runat="server" Text="Total Earning"> </asp:Label>   
+                <asp:TextBox ID="TextBox11" runat="server"> </asp:TextBox> </div> <br />
+        
+                 
+                                            
+        
+        
+        <div>    <asp:Label ID="TaxPercentage" runat="server" Text="Tax Percentage"></asp:Label>    
+              <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox> </div> <br />
+        
+        
+        <div>   <asp:Label ID="TaxAmount" runat="server" Text="Tax Amount"></asp:Label>   
+               <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox> </div> <br />
+       
 
+         <div> <asp:Label ID="EarningsAfterTax" runat="server" Text="Earnings After Tax"> </asp:Label> 
+
+              <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox> </div> <br />
+        
+                    <asp:Button ID="Button4" runat="server" Text="Clear" /> <br  />
+    <asp:Button ID="Button5" runat="server" Text="Calculate" OnClick="Button5_Click"  />
+       
+         
+
+        
                              
         
 
 
-    <form id="form1" runat="server">
+    
         <div>
         </div>
     </form>

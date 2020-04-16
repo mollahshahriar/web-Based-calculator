@@ -52,6 +52,7 @@
         </head>
 </head>
 <body>
+    <form id="form1" runat="server">
     
      <header>
             <img src="">
@@ -62,7 +63,19 @@
             </ul>
         </header>
 
-    <form id="form1" runat="server">
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox> <br   />
+
+
+  <div>  <asp:Button ID="Button4" runat="server" Text="+" /> </div><br   />
+
+    <div><asp:Button ID="Button3" runat="server" Text="-" /> </div><br   />
+
+    <div><asp:Button ID="Button1" runat="server" Text="*" /></div><br   />
+
+
+   <div> <asp:Button ID="Button2" runat="server" Text="/" /></div><br   />
+    
+    
         <div>
         </div>
     </form>
